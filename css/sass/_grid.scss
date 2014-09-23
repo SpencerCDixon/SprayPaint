@@ -51,16 +51,45 @@
 
 // remove margin-right from last element in a row or container so all columns fit ================ /
 @mixin last {
-  margin-right: 0;
-  float: right; // fixes poor alignment with right edge caused by percentage calculations
+  margin-right: 0 !important;
+  float: right !important; // fixes poor alignment with right edge caused by percentage calculations
 }
 
-.col-6 {
-  width: columns(6);
-  @include nesting(div)
-}
 
+.row {
+  margin-bottom: $vertical-measure;
+  @include row
+}
+.col-1 {
+  width: columns(1);
+  margin-bottom: $vertical-measure;
+}
 .col-2 {
   width: columns(2);
-  @include nesting(p)
+  margin-bottom: $vertical-measure;
+}
+.col-3 {
+  width: columns(3);
+  margin-bottom: $vertical-measure;
+}
+.col-4 {
+  width: columns(4);
+  margin-bottom: $vertical-measure;
+}
+.col-5 {
+  width: columns(5);
+  margin-bottom: $vertical-measure;
+}
+.col-6 {
+  width: columns(6);
+  margin-bottom: $vertical-measure;
+}
+.last {
+  @include last
+}
+
+.bg {
+  text-align: center;
+  color: #fff;
+  background-color: $default
 }
