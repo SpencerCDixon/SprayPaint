@@ -1,4 +1,4 @@
-button, .btn {
+.btn {
   display: inline-block;
   padding: 6px 12px;
   margin-bottom: 5px;
@@ -10,6 +10,7 @@ button, .btn {
   vertical-align: middle;
   cursor: pointer;
   background: $default;
+  border: 2px solid $default;
 }
   .small {
     font-size: $small;
@@ -22,27 +23,48 @@ button, .btn {
   }
   .success {
     background-color: $success;
+    border: 2px solid $success;
   }
   .info {
     background-color: $info;
+    border: 2px solid $info;
   }
   .warning {
     background-color: $warning;
+    border: 2px solid $warning;
   }
   .danger {
     background-color: $danger;
+    border: 2px solid $danger;
   }
 
-/* .btn:focus,
-.btn:active:focus,
-.btn.active:focus {
-  outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
+.btn.default {
+ &:hover, &:focus {
+  border: 2px solid $default;
+  background-color: $white;
+ }
 }
-.btn:hover,
-.btn:focus {
-  color: #333;
-  text-decoration: none;
+.btn.success {
+  &:hover, &:focus {
+   border: 2px solid $success;
+   background-color: $white;
+ }
 }
- */
+.btn.info {
+  &:hover, &:focus {
+   border: 2px solid $info;
+   background-color: $white;
+ }
+}
+.btn.warning {
+  &:hover, &:focus {
+   border: 2px solid $warning;
+   background-color: $white;
+ }
+}
+.btn.danger {
+  &:hover, &:focus {
+   border: 2px solid $danger;
+   background-color: $white;
+ }
+}

@@ -431,13 +431,13 @@ h2 {
 .bg {
   text-align: center;
   color: #fff;
-  background-color: #7f8c8d; }
+  background-color: #95a5a6; }
 
 .alert {
   padding: 10px;
   margin-bottom: 1.375em;
   color: #fff;
-  background-color: #7f8c8d; }
+  background-color: #95a5a6; }
 
 .success {
   background-color: #27ae60; }
@@ -451,7 +451,7 @@ h2 {
 .danger {
   background-color: #e74c3c; }
 
-button, .btn {
+.btn {
   display: inline-block;
   padding: 6px 12px;
   margin-bottom: 5px;
@@ -462,7 +462,8 @@ button, .btn {
   white-space: nowrap;
   vertical-align: middle;
   cursor: pointer;
-  background: #7f8c8d; }
+  background: #95a5a6;
+  border: 2px solid #95a5a6; }
 
 .small {
   font-size: 1em; }
@@ -474,42 +475,60 @@ button, .btn {
   font-size: 2em; }
 
 .success {
-  background-color: #27ae60; }
+  background-color: #27ae60;
+  border: 2px solid #27ae60; }
 
 .info {
-  background-color: #3498db; }
+  background-color: #3498db;
+  border: 2px solid #3498db; }
 
 .warning {
-  background-color: #f39c12; }
+  background-color: #f39c12;
+  border: 2px solid #f39c12; }
 
 .danger {
-  background-color: #e74c3c; }
+  background-color: #e74c3c;
+  border: 2px solid #e74c3c; }
 
-/* .btn:focus,
-.btn:active:focus,
-.btn.active:focus {
-  outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
-}
-.btn:hover,
-.btn:focus {
-  color: #333;
-  text-decoration: none;
-}
- */
+.btn.default:hover, .btn.default:focus {
+  border: 2px solid #95a5a6;
+  background-color: white; }
+
+.btn.success:hover, .btn.success:focus {
+  border: 2px solid #27ae60;
+  background-color: white; }
+
+.btn.info:hover, .btn.info:focus {
+  border: 2px solid #3498db;
+  background-color: white; }
+
+.btn.warning:hover, .btn.warning:focus {
+  border: 2px solid #f39c12;
+  background-color: white; }
+
+.btn.danger:hover, .btn.danger:focus {
+  border: 2px solid #e74c3c;
+  background-color: white; }
+
+.nav {
+  height: 50px;
+  max-width: 100%;
+  background-color: #34495e; }
+
+body {
+  padding: 0; }
+
 /* =================================================================================================
 Global styles
 ================================================================================================= */
 body {
-  padding: 0 1em;
   margin: 0; }
 
 .container {
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
-  padding: 0; }
+  padding: 0 1em; }
 
 img {
   max-width: 100%; }
