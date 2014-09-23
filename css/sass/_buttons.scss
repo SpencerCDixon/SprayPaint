@@ -1,0 +1,48 @@
+button, .btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 5px;
+  font-size: $small;
+  font-weight: normal;
+  line-height: $line-height;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background: $success;
+}
+  .small {
+    font-size: $small;
+  }
+  .med {
+    font-size: $medium;
+  }
+  .lrg {
+    font-size: $large;
+  }
+  .success {
+    background-color: $success;
+  }
+  .info {
+    background-color: $info;
+  }
+  .warning {
+    background-color: $warning;
+  }
+  .danger {
+    background-color: $danger;
+  }
+
+/* .btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.btn:hover,
+.btn:focus {
+  color: #333;
+  text-decoration: none;
+}
+ */

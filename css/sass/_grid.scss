@@ -54,3 +54,13 @@
   margin-right: 0;
   float: right; // fixes poor alignment with right edge caused by percentage calculations
 }
+
+.col-6 {
+  width: columns(6);
+  @include nesting(div)
+}
+
+.col-2 {
+  width: columns(2);
+  @include nesting(p)
+}

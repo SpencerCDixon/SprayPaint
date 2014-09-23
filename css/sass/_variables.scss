@@ -25,9 +25,14 @@ $column-width:                15%;                    // set column width
 $gutter:                      2%;                     // set gutter width
 $max-columns:                 6;                      // set max number of columns
 
-// Buttons & Alerts
+// Alerts
 $default:                     #ccc;
-$success:                     #dff0d8;
+$success:                     #48f431;
 $info:                        #75b1fc;
 $warning:                     #f0d71e;
 $danger:                      #f30a2c;
+
+// Buttons
+$small: 1em;
+$medium: 1.5em;
+$large: 2.0em;
