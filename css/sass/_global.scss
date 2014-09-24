@@ -22,6 +22,12 @@ section div {
   }
 }
 
+a {
+  text-decoration: none;
+  color: $black;
+}
+
+
 // get grid styles in gear once viewport is large enough ========================================= /
 @media screen and (min-width: 36em) {
 

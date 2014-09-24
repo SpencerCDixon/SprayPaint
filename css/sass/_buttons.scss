@@ -9,8 +9,10 @@
   white-space: nowrap;
   vertical-align: middle;
   cursor: pointer;
-  background: $default;
-  border: 2px solid $default;
+  color: $black;
+  &:hover, &:focus {
+  color: $white;
+  }
 }
   .small {
     font-size: $small;
@@ -21,50 +23,33 @@
   .lrg {
     font-size: $large;
   }
-  .success {
-    background-color: $success;
-    border: 2px solid $success;
+  .default {
+    @include linear-gradient($default, darken($default, 30%));
+    &:hover, &:focus {
+     background: $default;
+    }
   }
-  .info {
-    background-color: $info;
-    border: 2px solid $info;
+  .btn.success {
+    @include linear-gradient($success, darken($success, 30%));
+    &:hover, &:focus {
+    background: $success;
+   }
   }
-  .warning {
-    background-color: $warning;
-    border: 2px solid $warning;
+  .btn.info {
+    @include linear-gradient($info, darken($info, 30%));
+    &:hover, &:focus {
+    background: $info;
+   }
   }
-  .danger {
-    background-color: $danger;
-    border: 2px solid $danger;
+  .btn.warning {
+    @include linear-gradient($warning, darken($warning, 30%));
+    &:hover, &:focus {
+    background: $warning;
+   }
   }
-
-.btn.default {
- &:hover, &:focus {
-  border: 2px solid $default;
-  background-color: $white;
- }
-}
-.btn.success {
-  &:hover, &:focus {
-   border: 2px solid $success;
-   background-color: $white;
- }
-}
-.btn.info {
-  &:hover, &:focus {
-   border: 2px solid $info;
-   background-color: $white;
- }
-}
-.btn.warning {
-  &:hover, &:focus {
-   border: 2px solid $warning;
-   background-color: $white;
- }
-}
-.btn.danger {
-  &:hover, &:focus {
-   border: 2px solid $danger;
-   background-color: $white;
- }
-}
+  .btn.danger {
+    @include linear-gradient($danger, darken($danger, 30%));
+    &:hover, &:focus {
+    background: $danger;
+   }
+  }

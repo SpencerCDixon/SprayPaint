@@ -462,8 +462,9 @@ h2 {
   white-space: nowrap;
   vertical-align: middle;
   cursor: pointer;
-  background: #95a5a6;
-  border: 2px solid #95a5a6; }
+  color: black; }
+  .btn:hover, .btn:focus {
+    color: white; }
 
 .small {
   font-size: 1em; }
@@ -474,41 +475,60 @@ h2 {
 .lrg {
   font-size: 2em; }
 
-.success {
-  background-color: #27ae60;
-  border: 2px solid #27ae60; }
+.default {
+  background-color: #4a5758;
+  background-image: -moz-linear-gradient(#95a5a6, #4a5758);
+  background-image: -o-linear-gradient(#95a5a6, #4a5758);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #95a5a6), color-stop(1, #4a5758));
+  background-image: -webkit-linear-gradient(#95a5a6, #4a5758);
+  background-image: ms-linear-gradient(#95a5a6, #4a5758);
+  background-image: linear-gradient(#95a5a6, #4a5758); }
+  .default:hover, .default:focus {
+    background: #95a5a6; }
 
-.info {
-  background-color: #3498db;
-  border: 2px solid #3498db; }
+.btn.success {
+  background-color: #0b311b;
+  background-image: -moz-linear-gradient(#27ae60, #0b311b);
+  background-image: -o-linear-gradient(#27ae60, #0b311b);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #27ae60), color-stop(1, #0b311b));
+  background-image: -webkit-linear-gradient(#27ae60, #0b311b);
+  background-image: ms-linear-gradient(#27ae60, #0b311b);
+  background-image: linear-gradient(#27ae60, #0b311b); }
+  .btn.success:hover, .btn.success:focus {
+    background: #27ae60; }
 
-.warning {
-  background-color: #f39c12;
-  border: 2px solid #f39c12; }
+.btn.info {
+  background-color: #124364;
+  background-image: -moz-linear-gradient(#3498db, #124364);
+  background-image: -o-linear-gradient(#3498db, #124364);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #3498db), color-stop(1, #124364));
+  background-image: -webkit-linear-gradient(#3498db, #124364);
+  background-image: ms-linear-gradient(#3498db, #124364);
+  background-image: linear-gradient(#3498db, #124364); }
+  .btn.info:hover, .btn.info:focus {
+    background: #3498db; }
 
-.danger {
-  background-color: #e74c3c;
-  border: 2px solid #e74c3c; }
+.btn.warning {
+  background-color: #674105;
+  background-image: -moz-linear-gradient(#f39c12, #674105);
+  background-image: -o-linear-gradient(#f39c12, #674105);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f39c12), color-stop(1, #674105));
+  background-image: -webkit-linear-gradient(#f39c12, #674105);
+  background-image: ms-linear-gradient(#f39c12, #674105);
+  background-image: linear-gradient(#f39c12, #674105); }
+  .btn.warning:hover, .btn.warning:focus {
+    background: #f39c12; }
 
-.btn.default:hover, .btn.default:focus {
-  border: 2px solid #95a5a6;
-  background-color: white; }
-
-.btn.success:hover, .btn.success:focus {
-  border: 2px solid #27ae60;
-  background-color: white; }
-
-.btn.info:hover, .btn.info:focus {
-  border: 2px solid #3498db;
-  background-color: white; }
-
-.btn.warning:hover, .btn.warning:focus {
-  border: 2px solid #f39c12;
-  background-color: white; }
-
-.btn.danger:hover, .btn.danger:focus {
-  border: 2px solid #e74c3c;
-  background-color: white; }
+.btn.danger {
+  background-color: #7b190f;
+  background-image: -moz-linear-gradient(#e74c3c, #7b190f);
+  background-image: -o-linear-gradient(#e74c3c, #7b190f);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #e74c3c), color-stop(1, #7b190f));
+  background-image: -webkit-linear-gradient(#e74c3c, #7b190f);
+  background-image: ms-linear-gradient(#e74c3c, #7b190f);
+  background-image: linear-gradient(#e74c3c, #7b190f); }
+  .btn.danger:hover, .btn.danger:focus {
+    background: #e74c3c; }
 
 .nav {
   height: 50px;
@@ -517,6 +537,13 @@ h2 {
 
 body {
   padding: 0; }
+
+.form-group {
+  margin-bottom: 0.6875em; }
+
+input {
+  width: 100%;
+  padding: 0.6875em; }
 
 /* =================================================================================================
 Global styles
@@ -541,6 +568,10 @@ section div {
   text-align: center; }
   [role="contentinfo"] p {
     margin: 0; }
+
+a {
+  text-decoration: none;
+  color: black; }
 
 @media screen and (min-width: 36em) {
   .partner-quotes,

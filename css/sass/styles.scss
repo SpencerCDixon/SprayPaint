@@ -5,5 +5,7 @@
 @import 'grid';
 @import 'alerts';      // grid system functions and mixins will all be defined here
 @import 'buttons';
+
 @import 'nav';
+@import 'forms';
 @import 'global';     // global style rules are defined last so they can use all the previous sheets

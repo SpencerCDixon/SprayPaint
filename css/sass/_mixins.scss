@@ -6,8 +6,30 @@
   &:after { clear: both; }
 }
 
-@mixin border-box { // border-box mixin
+ @mixin border-box { // border-box mixin
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+@mixin rounded($radius) {
+   -webkit-border-radius: $radius;
+      -moz-border-radius: $radius;
+           border-radius: $radius;
+}
+
+@mixin shadow($x, $y, $blur, $color) {
+       -webkit-box-shadow: $x $y $blur $color;
+          -moz-box-shadow: $x $y $blur $color;
+               box-shadow: $x $y $blur $color;
+}
+
+@mixin linear-gradient($from, $to) {
+   background-color: $to;
+   background-image: -moz-linear-gradient($from, $to);
+   background-image: -o-linear-gradient($from, $to);
+   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, $from), color-stop(1, $to));
+   background-image: -webkit-linear-gradient($from, $to);
+   background-image: ms-linear-gradient($from, $to);
+   background-image: linear-gradient($from, $to);
 }
