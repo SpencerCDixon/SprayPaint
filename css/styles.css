@@ -403,26 +403,44 @@ h2 {
 .col-1 {
   width: 15%;
   margin-bottom: 1.375em; }
+  @media only screen and (max-width: 400px) {
+    .col-1 {
+      width: 100%; } }
 
 .col-2 {
   width: 32%;
   margin-bottom: 1.375em; }
+  @media only screen and (max-width: 400px) {
+    .col-2 {
+      width: 100%; } }
 
 .col-3 {
   width: 49%;
   margin-bottom: 1.375em; }
+  @media only screen and (max-width: 400px) {
+    .col-3 {
+      width: 100%; } }
 
 .col-4 {
   width: 66%;
   margin-bottom: 1.375em; }
+  @media only screen and (max-width: 400px) {
+    .col-4 {
+      width: 100%; } }
 
 .col-5 {
   width: 83%;
   margin-bottom: 1.375em; }
+  @media only screen and (max-width: 400px) {
+    .col-5 {
+      width: 100%; } }
 
 .col-6 {
   width: 100%;
   margin-bottom: 1.375em; }
+  @media only screen and (max-width: 400px) {
+    .col-6 {
+      width: 100%; } }
 
 .last {
   margin-right: 0 !important;

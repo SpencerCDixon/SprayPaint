@@ -63,26 +63,44 @@
 .col-1 {
   width: columns(1);
   margin-bottom: $vertical-measure;
+  @include responsive(small-screens) {
+    width: 100%;
+  }
 }
 .col-2 {
   width: columns(2);
   margin-bottom: $vertical-measure;
+  @include responsive(small-screens) {
+    width: 100%;
+  }
 }
 .col-3 {
   width: columns(3);
   margin-bottom: $vertical-measure;
+  @include responsive(small-screens) {
+    width: 100%;
+  }
 }
 .col-4 {
   width: columns(4);
   margin-bottom: $vertical-measure;
+  @include responsive(small-screens) {
+    width: 100%;
+  }
 }
 .col-5 {
   width: columns(5);
   margin-bottom: $vertical-measure;
+  @include responsive(small-screens) {
+    width: 100%;
+  }
 }
 .col-6 {
   width: columns(6);
   margin-bottom: $vertical-measure;
+  @include responsive(small-screens) {
+    width: 100%;
+  }
 }
 .last {
   @include last

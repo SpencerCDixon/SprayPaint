@@ -25,6 +25,13 @@ $column-width:                15%;                    // set column width
 $gutter:                      2%;                     // set gutter width
 $max-columns:                 6;                      // set max number of columns
 
+// Responsive Breakpoints
+$width-small:                 400px;
+$width-medium:                760px;
+$width-large:                 1000px;
+
+
+
 // Alerts
 $default:                     #95a5a6;
 $success:                     #27ae60;
