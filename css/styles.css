@@ -544,6 +544,8 @@ body {
 input {
   width: 100%;
   padding: 0.6875em; }
+  input:focus {
+    background-color: #DDD; }
 
 /* =================================================================================================
 Global styles
