@@ -480,9 +480,10 @@ h2 {
   white-space: nowrap;
   vertical-align: middle;
   cursor: pointer;
-  color: black; }
+  border-radius: 6px;
+  color: white; }
   .btn:hover, .btn:focus {
-    color: white; }
+    color: black; }
 
 .small {
   font-size: 1em; }
@@ -494,88 +495,112 @@ h2 {
   font-size: 2em; }
 
 .default {
-  background-color: #4a5758;
-  background-image: -moz-linear-gradient(#95a5a6, #4a5758);
-  background-image: -o-linear-gradient(#95a5a6, #4a5758);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #95a5a6), color-stop(1, #4a5758));
-  background-image: -webkit-linear-gradient(#95a5a6, #4a5758);
-  background-image: ms-linear-gradient(#95a5a6, #4a5758);
-  background-image: linear-gradient(#95a5a6, #4a5758); }
+  background-color: #6d8082;
+  background-image: -moz-linear-gradient(#95a5a6, #6d8082);
+  background-image: -o-linear-gradient(#95a5a6, #6d8082);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #95a5a6), color-stop(1, #6d8082));
+  background-image: -webkit-linear-gradient(#95a5a6, #6d8082);
+  background-image: ms-linear-gradient(#95a5a6, #6d8082);
+  background-image: linear-gradient(#95a5a6, #6d8082); }
   .default:hover, .default:focus {
     background: #95a5a6; }
 
 .btn.success {
-  background-color: #0b311b;
-  background-image: -moz-linear-gradient(#27ae60, #0b311b);
-  background-image: -o-linear-gradient(#27ae60, #0b311b);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #27ae60), color-stop(1, #0b311b));
-  background-image: -webkit-linear-gradient(#27ae60, #0b311b);
-  background-image: ms-linear-gradient(#27ae60, #0b311b);
-  background-image: linear-gradient(#27ae60, #0b311b); }
+  background-color: #19703e;
+  background-image: -moz-linear-gradient(#27ae60, #19703e);
+  background-image: -o-linear-gradient(#27ae60, #19703e);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #27ae60), color-stop(1, #19703e));
+  background-image: -webkit-linear-gradient(#27ae60, #19703e);
+  background-image: ms-linear-gradient(#27ae60, #19703e);
+  background-image: linear-gradient(#27ae60, #19703e); }
   .btn.success:hover, .btn.success:focus {
     background: #27ae60; }
 
 .btn.info {
-  background-color: #124364;
-  background-image: -moz-linear-gradient(#3498db, #124364);
-  background-image: -o-linear-gradient(#3498db, #124364);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #3498db), color-stop(1, #124364));
-  background-image: -webkit-linear-gradient(#3498db, #124364);
-  background-image: ms-linear-gradient(#3498db, #124364);
-  background-image: linear-gradient(#3498db, #124364); }
+  background-color: #1d6fa5;
+  background-image: -moz-linear-gradient(#3498db, #1d6fa5);
+  background-image: -o-linear-gradient(#3498db, #1d6fa5);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #3498db), color-stop(1, #1d6fa5));
+  background-image: -webkit-linear-gradient(#3498db, #1d6fa5);
+  background-image: ms-linear-gradient(#3498db, #1d6fa5);
+  background-image: linear-gradient(#3498db, #1d6fa5); }
   .btn.info:hover, .btn.info:focus {
     background: #3498db; }
 
 .btn.warning {
-  background-color: #674105;
-  background-image: -moz-linear-gradient(#f39c12, #674105);
-  background-image: -o-linear-gradient(#f39c12, #674105);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f39c12), color-stop(1, #674105));
-  background-image: -webkit-linear-gradient(#f39c12, #674105);
-  background-image: ms-linear-gradient(#f39c12, #674105);
-  background-image: linear-gradient(#f39c12, #674105); }
+  background-color: #b06f09;
+  background-image: -moz-linear-gradient(#f39c12, #b06f09);
+  background-image: -o-linear-gradient(#f39c12, #b06f09);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f39c12), color-stop(1, #b06f09));
+  background-image: -webkit-linear-gradient(#f39c12, #b06f09);
+  background-image: ms-linear-gradient(#f39c12, #b06f09);
+  background-image: linear-gradient(#f39c12, #b06f09); }
   .btn.warning:hover, .btn.warning:focus {
     background: #f39c12; }
 
 .btn.danger {
-  background-color: #7b190f;
-  background-image: -moz-linear-gradient(#e74c3c, #7b190f);
-  background-image: -o-linear-gradient(#e74c3c, #7b190f);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #e74c3c), color-stop(1, #7b190f));
-  background-image: -webkit-linear-gradient(#e74c3c, #7b190f);
-  background-image: ms-linear-gradient(#e74c3c, #7b190f);
-  background-image: linear-gradient(#e74c3c, #7b190f); }
+  background-color: #bf2718;
+  background-image: -moz-linear-gradient(#e74c3c, #bf2718);
+  background-image: -o-linear-gradient(#e74c3c, #bf2718);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #e74c3c), color-stop(1, #bf2718));
+  background-image: -webkit-linear-gradient(#e74c3c, #bf2718);
+  background-image: ms-linear-gradient(#e74c3c, #bf2718);
+  background-image: linear-gradient(#e74c3c, #bf2718); }
   .btn.danger:hover, .btn.danger:focus {
     background: #e74c3c; }
 
 .nav {
   height: 50px;
-  max-width: 100%;
-  background-color: #34495e; }
-
-body {
-  padding: 0; }
+  width: 100%;
+  display: block;
+  background-color: #34495e;
+  clear: both;
+  padding: 0;
+  margin: 0; }
+  .nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+  .nav ul li {
+    display: inline-block;
+    float: right;
+    margin: 0 10px;
+    border-left: 1px solid #95a5a6; }
+  .nav ul li a {
+    color: white; }
 
 .form-group {
   margin-bottom: 0.6875em; }
 
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 12px rgba(46, 204, 113, 0.2); }
+
+  50% {
+    -webkit-box-shadow: 0 0 12px rgba(46, 204, 113, 0.9); }
+
+  100% {
+    -webkit-box-shadow: 0 0 12px rgba(46, 204, 113, 0.2); } }
 input {
   width: 100%;
   padding: 0.6875em; }
   input:focus {
-    background-color: #DDD; }
+    -webkit-animation: pulse 1.5s infinite ease-in-out; }
 
 /* =================================================================================================
 Global styles
 ================================================================================================= */
 body {
-  margin: 0; }
+  margin: 0;
+  height: 100%;
+  background-color: #DDD; }
 
 .container {
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
-  padding: 0 1em; }
+  padding: 0 1em;
+  border: 1px solid #000; }
 
 img {
   max-width: 100%; }

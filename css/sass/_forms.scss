@@ -2,10 +2,23 @@
   margin-bottom: $vertical-measure / 2;
 }
 
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 12px rgba(46, 204, 113,.2);
+  }
+  50% {
+    -webkit-box-shadow: 0 0 12px rgba(46, 204, 113,.9);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 12px rgba(46, 204, 113,.2);
+  }
+}
+
+
 input {
   width: 100%;
   padding: $vertical-measure / 2;
   &:focus {
-    background-color: #DDD;
+    -webkit-animation: pulse 1.5s infinite ease-in-out;
   }
 }

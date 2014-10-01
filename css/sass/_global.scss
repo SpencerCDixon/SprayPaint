@@ -3,8 +3,8 @@ Global styles
 ================================================================================================= */
 
 // set up body and container padding/widths/etc ================================================== /
-body { margin: 0; }
-.container { width: 100%; max-width: $max-width; margin: 0 auto; padding: 0 1em; }
+body { margin: 0; height: 100%; background-color: #DDD;}
+.container { width: 100%; max-width: $max-width; margin: 0 auto; padding: 0 1em; border: 1px solid #000;}
 // do not use the row mixin for your container. the direct child selectors will bork everything
 img { max-width: 100%; }
 

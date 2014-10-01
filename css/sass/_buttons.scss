@@ -9,9 +9,10 @@
   white-space: nowrap;
   vertical-align: middle;
   cursor: pointer;
-  color: $black;
-  &:hover, &:focus {
+  border-radius: 6px;
   color: $white;
+  &:hover, &:focus {
+  color: $black;
   }
 }
   .small {
@@ -24,31 +25,31 @@
     font-size: $large;
   }
   .default {
-    @include linear-gradient($default, darken($default, 30%));
+    @include linear-gradient($default, darken($default, 15%));
     &:hover, &:focus {
      background: $default;
     }
   }
   .btn.success {
-    @include linear-gradient($success, darken($success, 30%));
+    @include linear-gradient($success, darken($success, 15%));
     &:hover, &:focus {
     background: $success;
    }
   }
   .btn.info {
-    @include linear-gradient($info, darken($info, 30%));
+    @include linear-gradient($info, darken($info, 15%));
     &:hover, &:focus {
     background: $info;
    }
   }
   .btn.warning {
-    @include linear-gradient($warning, darken($warning, 30%));
+    @include linear-gradient($warning, darken($warning, 15%));
     &:hover, &:focus {
     background: $warning;
    }
   }
   .btn.danger {
-    @include linear-gradient($danger, darken($danger, 30%));
+    @include linear-gradient($danger, darken($danger, 15%));
     &:hover, &:focus {
     background: $danger;
    }
