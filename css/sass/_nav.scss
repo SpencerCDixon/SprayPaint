@@ -1,11 +1,13 @@
 .nav {
-  height: 50px;
+  height: 70px;
   width: 100%;
   display: block;
-  background-color: $nav;
+  background-color: white;
   clear: both;
   padding: 0;
   margin: 0;
+  border-bottom: 3px solid #55b1e8;
+  font-family: 'Raleway', sans-serif;
   ul {
     list-style: none;
     padding: 0;
@@ -15,10 +17,24 @@
     display: inline-block;
     float: right;
     margin: 0 10px;
-    border-left: 1px solid $default;
+    margin-top: 1.7em;
+    &:first-child {
+      margin-right: 2em;
+      margin-left: 1em;
+    }
   }
   ul li a {
-    color: white;
+    color: #555555;
   }
+  .login {
+    background-color: $info;
+    padding: 10px;
+    border-radius: 5px;
+    color: $white;
+    font-size: .71em;
+  }
+  .active {
+   border-bottom: 1px solid $info;  
+ }
 
 }
