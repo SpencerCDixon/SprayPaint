@@ -2,9 +2,22 @@
 Global styles
 ================================================================================================= */
 
+
+/* Global Styles Defined By Spencer - Start */
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+
+
+
+/* Global Styles Defined By Spencer - End */
 // set up body and container padding/widths/etc ================================================== /
 body { margin: 0; height: 100%; background-color: #DDD;}
-.container { width: 100%; max-width: $max-width; margin: 0 auto; padding: 0 1em;} 
+.container { max-width: $max-width; margin: 0 auto; padding: 0 .5em;} 
 // do not use the row mixin for your container. the direct child selectors will bork everything
 img { max-width: 100%; }
 

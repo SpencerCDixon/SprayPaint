@@ -18,6 +18,10 @@ $base-color:                  $black;
 $font-family:                 sans-serif;
 $line-height:                 1.375;      // establish a consistent line-height equal to 22px
 $vertical-measure:            1.375em;    // establish a vertical distance for margins equal to line-height
+$big-header: 'Raleway', sans-serif;
+$big-header-color: #383838;
+$small-header: 'Source Sans Pro', sans-serif;
+$small-header-color: #b7b7b7;
 
 // Grid variables
 $max-width:                   1000px;                 // set page max-width
