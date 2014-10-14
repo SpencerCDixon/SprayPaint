@@ -19,6 +19,20 @@ input {
   width: 100%;
   padding: $vertical-measure / 2;
   &:focus {
-    -webkit-animation: pulse 1.5s infinite ease-in-out;
+    border: 2px solid $info;
+    border-left: 6px solid $info;
+    border-radius: 8px;
+    outline: none;
+    background-color: $white;
+    color: #383838;
   }
+  border-left: 3px solid $info;
+  border: none;
+  background: none;
+  border-left: 2px solid $info;
+  color: #797979;
+}
+
+input[type="submit"] {
+
 }

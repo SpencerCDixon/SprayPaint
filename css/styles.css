@@ -675,9 +675,19 @@ p {
     -webkit-box-shadow: 0 0 12px rgba(46, 204, 113, 0.2); } }
 input {
   width: 100%;
-  padding: 0.6875em; }
+  padding: 0.6875em;
+  border-left: 3px solid #55b2e9;
+  border: none;
+  background: none;
+  border-left: 2px solid #55b2e9;
+  color: #797979; }
   input:focus {
-    -webkit-animation: pulse 1.5s infinite ease-in-out; }
+    border: 2px solid #55b2e9;
+    border-left: 6px solid #55b2e9;
+    border-radius: 8px;
+    outline: none;
+    background-color: white;
+    color: #383838; }
 
 /* =================================================================================================
 Global styles
