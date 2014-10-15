@@ -17,6 +17,7 @@ After you have sass going I would open up the index.html in your favorite browse
 
 
 ### To Do:
+
 - Nav Bar  
 - Media Queries for grid system  
 - Form styling  
@@ -25,3 +26,20 @@ After you have sass going I would open up the index.html in your favorite browse
 - Final decision on color scheme  
 - Jumbo Tron  
 - System for adding images  
+
+### Screencast Ideas
+
+- How to use the grid system
+- Applying basic classes to objects
+- Customizing forms
+- Changing overrides to customize the framework
+- Building sections/panels
+- Creating a navbar
+
+
+### Urgent
+
+- Fix forms width.  Overflow hidden maybe?
+- Add a search button that goes on the side of a text field for searching
+- Make buttons have a click to change color instead of showing all of them at
+  once.

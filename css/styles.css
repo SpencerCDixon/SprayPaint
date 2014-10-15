@@ -479,6 +479,7 @@ p {
 .alert {
   padding: 1em;
   margin-bottom: 1.375em;
+  margin-top: 1.375em;
   color: #fff;
   background-color: #95a5a6;
   border-radius: 5px;
@@ -645,7 +646,7 @@ p {
     color: #555555; }
     .nav ul li a:hover {
       border-bottom: 1px solid #55b2e9; }
-  .nav .login {
+  .nav .call-to-action {
     background-color: #55b2e9;
     padding: 10px;
     border-radius: 5px;
@@ -680,7 +681,8 @@ input {
   border: none;
   background: none;
   border-left: 2px solid #55b2e9;
-  color: #797979; }
+  color: #797979;
+  box-sizing: border-box; }
   input:focus {
     border: 2px solid #55b2e9;
     border-left: 6px solid #55b2e9;

@@ -31,6 +31,7 @@ input {
   background: none;
   border-left: 2px solid $info;
   color: #797979;
+  box-sizing: border-box;
 }
 
 input[type="submit"] {
