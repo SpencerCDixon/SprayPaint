@@ -2,12 +2,12 @@
   height: 70px;
   width: 100%;
   display: block;
-  background-color: white;
+  background-color: $nav-bg;
   clear: both;
   padding: 0;
   margin: 0;
-  border-bottom: 3px solid #55b1e8;
-  font-family: 'Raleway', sans-serif;
+  border-bottom: 3px solid $border-bottom-color;
+  font-family: $nav-font-family;
   ul {
     list-style: none;
     padding: 0;
@@ -35,6 +35,9 @@
     border-radius: 5px;
     color: $white;
     font-size: .71em;
+    &:hover {
+      color: $nav-inverse-bg;
+    }
   }
   .active {
    border-bottom: 1px solid $info;  
@@ -46,6 +49,61 @@
   display: inline-block;
   float: left;
   margin-top: 1em;
-  margin-left: 3em;
+  margin-left: $vertical-measure; 
+}
 
+.nav-inverse {
+  height: 70px;
+  width: 100%;
+  display: block;
+  background-color: $nav-inverse-bg;
+  clear: both;
+  padding: 0;
+  margin: 0;
+  border-bottom: 3px solid $border-bottom-color;
+  font-family: $nav-font-family;
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  ul li {
+    display: inline-block;
+    float: right;
+    margin: 0 10px;
+    margin-top: 1.7em;
+    &:first-child {
+      margin-right: 2em;
+      margin-left: 1em;
+    }
+  }
+  ul li a {
+    color: $white;
+    &:hover {
+     border-bottom: 1px solid $info;  
+    }
+  }
+  .call-to-action {
+    background-color: $info;
+    padding: 10px;
+    border-radius: 5px;
+    color: #373737;
+    font-size: .71em;
+    &:hover {
+      color: $white;
+    }
+  }
+  .active {
+   border-bottom: 1px solid $info;  
+ }
+}
+
+.brand {
+  display: inline-block;
+  float: left;
+  margin-left: $vertical-measure;
+  @include vertical-align;
+  h1 {
+    color: $white;
+  }
 }

@@ -17,13 +17,13 @@ $white:                       hsl(0, 0%, 100%);
 $base-color:                  $black;
 $font-family:                 sans-serif;
 $line-height:                 1.375;      // establish a consistent line-height equal to 22px
-$vertical-measure:            1.375em;    // establish a vertical distance for margins equal to line-height
 $big-header: 'Raleway', sans-serif;
 $big-header-color: #383838;
 $small-header: 'Source Sans Pro', sans-serif;
 $small-header-color: #b7b7b7;
 
 // Grid variables
+$vertical-measure:            1.375em;    // establish a vertical distance for margins equal to line-height
 $max-width:                   1000px;                 // set page max-width
 $column-width:                15%;                    // set column width
 $gutter:                      2%;                     // set gutter width
@@ -46,3 +46,11 @@ $nav:                         #34495e;
 $small: 1em;
 $medium: 1.5em;
 $large: 2.0em;
+
+// Navbar
+$border-bottom-color:  #55b1e8;
+$nav-font-family: 'Raleway', sans-serif; 
+$nav-bg: $white;
+$nav-inverse-bg: #373737;
+
+// Tables

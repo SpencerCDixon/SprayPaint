@@ -13,7 +13,20 @@
       <img src="img/logo.png">
     </div>
     <ul>
-      <li><a href="#" class="login"> Login | Sign Up  </a></li>
+      <li><a href="#" class="call-to-action"> Login | Sign Up  </a></li>
+      <li><a href="#"> About  </a></li>
+      <li><a href="#"> Portfolio  </a></li>
+      <li><a href="#"> Blog  </a></li>
+      <li><a href="#"> Contact  </a></li>
+      <li><a href="#" class="active"> Home  </a></li>
+    </ul>
+  </nav>
+  <nav class="nav-inverse">
+    <div class="brand">
+      <h1> Your Brand </h1>
+    </div>
+    <ul>
+      <li><a href="#" class="call-to-action"> Login | Sign Up  </a></li>
       <li><a href="#"> About  </a></li>
       <li><a href="#"> Portfolio  </a></li>
       <li><a href="#"> Blog  </a></li>
@@ -106,9 +119,26 @@
     </div>
   </div>
 
-  <h1>Forms: </h1>
+  <h1>Standard Forms: </h1>
 
-  <form role="form">
+  <form class="standard">
+    <div class="form-group">
+      <label for="exampleInputEmail1">Text Field</label>
+      <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    </div>
+    <button type="submit" class="btn info">Submit</button>
+  </form>
+
+  <h1> Ninja Forms: </h1>
+  <form class="ninja">
     <div class="form-group">
       <label for="exampleInputEmail1">Text Field</label>
       <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
@@ -173,9 +203,48 @@
     <li> List 1 </li>
   </ol>
 
+  <table>
+    <thead>
+      <tr>
+        <th> Table header </th>
+        <th> Table header </th>
+        <th> Table header </th>
+        <th> Table header </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="hover">
+        <td> This row has hover state. </td>
+        <td> Hover over me to see it. </td>
+        <td> Hover over me to see it.</td>
+        <td> This row has hover state. </td>
+      </tr>
+      <tr>
+        <td> Content goes here. </td>
+        <td> Content goes here. </td>
+        <td> Content goes here. </td>
+        <td> Content goes here. </td>
+      </tr>
+      <tr>
+        <td> Content goes here. </td>
+        <td> Content goes here. </td>
+        <td> Content goes here. </td>
+        <td> Content goes here. </td>
+      </tr>
+      <tr>
+        <td> Content goes here. </td>
+        <td> Content goes here. </td>
+        <td> Content goes here. </td>
+        <td> Content goes here. </td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
 
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
-</div>
+  </div>
 
 </body>
 </html>

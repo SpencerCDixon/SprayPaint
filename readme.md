@@ -43,3 +43,5 @@ After you have sass going I would open up the index.html in your favorite browse
 - Add a search button that goes on the side of a text field for searching
 - Make buttons have a click to change color instead of showing all of them at
   once.
+- Make tables responsive
+- Create a ninja form vs. Normal form

@@ -1,0 +1,24 @@
+table {
+  width: 100%;
+  margin-top: $vertical-measure;
+  margin-bottom: $vertical-measure;
+  border-collapse: collapse;
+  
+}
+  
+th, td {
+ text-align: center;
+ border: 1px solid #ccc;
+ height: 50px;
+ transition: all 0.3s;
+}
+td {
+}
+th {
+  font-weight: bold;
+  background: #DFDFDF;
+}
+
+tr:nth-child(even) td { background: #F1F1F1; }
+tr:nth-child(odd) td { background: #FEFEFE; }  
+tr.hover td:hover { background: #666; color: #FFF; } 
