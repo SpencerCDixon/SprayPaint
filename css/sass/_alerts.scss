@@ -1,10 +1,10 @@
 .alert {
   padding: 1em;
   margin-bottom: $vertical-measure;
-  margin-top: $vertical-measure;
+  margin: $vertical-measure 0;
   color: #fff;
-  background-color: $default;
-  border-radius: 5px;             
+  background-color: $info;
+  border-radius: 7px;
   border: 1px solid darken($default, 10%);
 }
   .success {
