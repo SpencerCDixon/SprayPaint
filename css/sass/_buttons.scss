@@ -1,17 +1,22 @@
 .btn {
   display: inline-block;
-  padding: 6px 12px;
+  padding: 6px 25px;
   margin-bottom: 5px;
   font-size: $small;
   font-weight: normal;
+  font-family: $nav-font-family;
   line-height: $line-height;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
   cursor: pointer;
-  border-radius: 6px;
+  border-radius: 8px;
   color: $white;
+  background: $info;
+  border: 2px solid darken($info, 10%);
   &:hover, &:focus {
+  background: $white;
+  border: 2px solid $info;
   color: $black;
   }
 }
@@ -24,33 +29,33 @@
   .lrg {
     font-size: $large;
   }
-  .default {
-    @include linear-gradient($default, darken($default, 15%));
-    &:hover, &:focus {
-     background: $default;
-    }
-  }
   .btn.success {
-    @include linear-gradient($success, darken($success, 15%));
-    &:hover, &:focus {
+    border: 2px solid darken($success, 10%);
     background: $success;
-   }
-  }
-  .btn.info {
-    @include linear-gradient($info, darken($info, 15%));
     &:hover, &:focus {
-    background: $info;
+    background: $white;
+    border: 2px solid $success;
    }
   }
   .btn.warning {
-    @include linear-gradient($warning, darken($warning, 15%));
-    &:hover, &:focus {
+    border: 2px solid darken($warning, 10%);
     background: $warning;
+    &:hover, &:focus {
+    background: $white;
+    border: 2px solid $warning;
    }
   }
   .btn.danger {
-    @include linear-gradient($danger, darken($danger, 15%));
-    &:hover, &:focus {
+    border: 2px solid darken($danger, 10%);
     background: $danger;
+    &:hover, &:focus {
+    background: $white;
+    border: 2px solid $danger;
    }
+  }
+  .emboss {
+    @include linear-gradient($info, darken($info, 15%));
+    &:hover, &:focus {
+    background: $info;
+    }
   }
