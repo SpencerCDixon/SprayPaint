@@ -13,10 +13,10 @@
   border-radius: 8px;
   color: $white;
   background: $info;
-  border: 4px solid darken($info, 10%);
+  border: 2px solid darken($info, 10%);
   &:hover, &:focus {
   background: $white;
-  border: 4px solid $info;
+  border: 2px solid $info;
   color: $black;
   }
 }
@@ -30,27 +30,27 @@
     font-size: $large;
   }
   .btn.success {
-    border: 4px solid darken($success, 10%);
+    border: 2px solid darken($success, 10%);
     background: $success;
     &:hover, &:focus {
     background: $white;
-    border: 4px solid $success;
+    border: 2px solid $success;
    }
   }
   .btn.warning {
-    border: 4px solid darken($warning, 10%);
+    border: 2px solid darken($warning, 10%);
     background: $warning;
     &:hover, &:focus {
     background: $white;
-    border: 4px solid $warning;
+    border: 2px solid $warning;
    }
   }
   .btn.danger {
-    border: 4px solid darken($danger, 10%);
+    border: 2px solid darken($danger, 10%);
     background: $danger;
     &:hover, &:focus {
     background: $white;
-    border: 4px solid $danger;
+    border: 2px solid $danger;
    }
   }
   .emboss {

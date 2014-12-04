@@ -15,7 +15,7 @@
 }
 
 
-form.ninja input {
+form.ninja input, form.ninja textarea {
   width: 100%;
   padding: $vertical-measure / 2;
   &:focus {
@@ -32,6 +32,7 @@ form.ninja input {
   border-left: 2px solid $info;
   color: #797979;
   box-sizing: border-box;
+  margin-bottom: 2%;
 }
 
 form.standard input {
@@ -44,6 +45,7 @@ form.standard input {
   background-color: $white;
   color: #383838;
   box-sizing: border-box;
+  margin-bottom: 2%;
   &:focus {
     border: 2px solid $success;
     border-left: 6px solid $success;

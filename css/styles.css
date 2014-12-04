@@ -727,11 +727,13 @@ tr.hover td:hover {
 @-webkit-keyframes pulse {
   0% {
     -webkit-box-shadow: 0 0 12px rgba(46, 204, 113, 0.2); }
+
   50% {
     -webkit-box-shadow: 0 0 12px rgba(46, 204, 113, 0.9); }
+
   100% {
     -webkit-box-shadow: 0 0 12px rgba(46, 204, 113, 0.2); } }
-form.ninja input {
+form.ninja input, form.ninja textarea {
   width: 100%;
   padding: 0.6875em;
   border-left: 3px solid #55b2e9;
@@ -739,8 +741,9 @@ form.ninja input {
   background: none;
   border-left: 2px solid #55b2e9;
   color: #797979;
-  box-sizing: border-box; }
-  form.ninja input:focus {
+  box-sizing: border-box;
+  margin-bottom: 2%; }
+  form.ninja input:focus, form.ninja textarea:focus {
     border: 2px solid #55b2e9;
     border-left: 6px solid #55b2e9;
     border-radius: 8px;
@@ -757,7 +760,8 @@ form.standard input {
   outline: none;
   background-color: white;
   color: #383838;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  margin-bottom: 2%; }
   form.standard input:focus {
     border: 2px solid #65c04d;
     border-left: 6px solid #65c04d;
@@ -788,5 +792,3 @@ section div {
 
 a {
   text-decoration: none; }
-
-/*# sourceMappingURL=styles.css.map */
