@@ -18,7 +18,6 @@ After you have sass going I would open up the index.html in your favorite browse
 
 ### To Do:
 
-- Form styling  
 - Unordered list styling  
 - Ordered list styling  
 - Jumbo Tron  
